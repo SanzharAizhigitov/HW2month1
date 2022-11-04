@@ -19,5 +19,11 @@ public final class FruitTree extends Tree {
         }else {
         System.out.println("The leaves have fallen");}
     }
+
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Number of fruits: " + getNumberOfFruits());
+    }
 }
 

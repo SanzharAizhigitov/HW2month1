@@ -10,4 +10,7 @@ public class Plant {
     public int getAge() {
         return age;
     }
+    public void printInfo(){
+        System.out.println("Age: " + getAge());
+    }
 }

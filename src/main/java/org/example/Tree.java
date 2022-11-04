@@ -22,4 +22,10 @@ public class Tree extends Plant{
             System.out.println("The leaves have fallen");
         }
     }
+
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Type of leaves: " + getTypeOfLeaves());
+    }
 }
